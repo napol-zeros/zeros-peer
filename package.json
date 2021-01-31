@@ -1,0 +1,32 @@
+{
+  "name": "zeros-peer",
+  "version": "1.0.0",
+  "description": "Peer to Zeros origin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napol-zeros/zeros-peer.git"
+  },
+  "author": "Napol Thanarangkaun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/napol-zeros/zeros-peer/issues"
+  },
+  "homepage": "https://github.com/napol-zeros/zeros-peer#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "inquirer": "^7.3.3",
+    "socket.io": "^3.1.0",
+    "ws": "^7.4.2"
+  }
+}

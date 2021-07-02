@@ -1,26 +1,26 @@
-// Zeros Peer
+/** Zeros Origin CLI. */
 
-const chalk = require('chalk')
-const clear = require('clear')
-const figlet = require('figlet')
+const chalk = require( 'chalk' );
+const clear = require( 'clear' );
+const figlet = require( 'figlet' );
 
-require('./modules/main')
-require('./modules/files')
-const command = require('./modules/command')
+require( './modules/main' );
+require( './modules/files' );
+const command = require( './modules/command' );
 
-clear()
+clear();
 
 console.log(
   chalk.green(
-    figlet.textSync('ZerosPeer', { horizontalLayout: 'default' })
+    figlet.textSync( 'ZerosPeer', { horizontalLayout: 'default' } )
   )
-)
+);
 
-console.log('CLI version 0.0.1\n')
+console.log('CLI version 0.0.1\n');
 
 const run = async () => {
-    const credentials = await command.askCommand()
-    console.log(credentials)
+    const credentials = await command.askCommand();
+    console.log( credentials );
 }
 
-run()
+run();

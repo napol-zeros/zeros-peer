@@ -1,7 +1,7 @@
 {
-  "name": "zeros-peer",
+  "name": "zeros",
   "version": "1.0.0",
-  "description": "Peer to Zeros origin",
+  "description": "Zeros Origin CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/napol-zeros/zeros-peer.git"
+    "url": "git+https://github.com/zeros-origin/zeros-cli.git"
   },
   "author": "Zeros Origin Coders",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/napol-zeros/zeros-peer/issues"
+    "url": "https://github.com/zeros-origin/zeros-cli/issues"
   },
-  "homepage": "https://github.com/napol-zeros/zeros-peer#readme",
+  "homepage": "https://github.com/zeros-origin/zeros-cli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",

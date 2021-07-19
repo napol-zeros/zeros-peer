@@ -1,3 +1,3 @@
-# Zeros Peer
+## What is Zeros CLI?
 
-CLI for Zeros Origin Network
+CLI for Zeros Origin Network.
